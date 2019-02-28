@@ -1,6 +1,11 @@
-package headfirst.designpatterns.observer.weather;
-	
-public class CurrentConditionsDisplay implements Observer, DisplayElement {
+package main.java.northpole.observer.displayelements;
+
+import main.java.northpole.observer.DisplayElement;
+import main.java.northpole.observer.Observer;
+import main.java.northpole.observer.Subject;
+
+public class CurrentConditionsDisplay implements Observer, DisplayElement
+{
 	private float temperature;
 	private float humidity;
 	private Subject weatherData;

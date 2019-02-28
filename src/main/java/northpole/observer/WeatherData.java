@@ -1,5 +1,7 @@
 package main.java.northpole.observer;
 
+import java.util.ArrayList;
+
 public class WeatherData implements Subject
 {
     private ArrayList<Observer> observers;
@@ -33,7 +35,7 @@ public class WeatherData implements Subject
     {
         for (Observer observer : observers)
         {
-            observer.update(temperature, humidity, pressure)
+            observer.update(temperature, humidity, pressure);
         }
     }
 
