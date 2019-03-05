@@ -1,8 +1,8 @@
-package main.java.northpole.observer.displayelements;
+package northpole.observer.displayelements;
 
-import main.java.northpole.observer.DisplayElement;
-import main.java.northpole.observer.Observer;
-import main.java.northpole.observer.WeatherData;
+import northpole.observer.DisplayElement;
+import northpole.observer.Observer;
+import northpole.observer.WeatherData;
 
 public class StatisticsDisplay implements Observer, DisplayElement
 {

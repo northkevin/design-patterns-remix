@@ -1,9 +1,9 @@
-package main.java.northpole.observer.weather;
+package northpole.observer.weather;
 
-import main.java.northpole.observer.WeatherData;
-import main.java.northpole.observer.displayelements.CurrentConditionsDisplay;
-import main.java.northpole.observer.displayelements.ForecastDisplay;
-import main.java.northpole.observer.displayelements.StatisticsDisplay;
+import northpole.observer.WeatherData;
+import northpole.observer.displayelements.CurrentConditionsDisplay;
+import northpole.observer.displayelements.ForecastDisplay;
+import northpole.observer.displayelements.StatisticsDisplay;
 
 public class WeatherStation
 {

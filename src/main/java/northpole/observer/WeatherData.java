@@ -1,4 +1,4 @@
-package main.java.northpole.observer;
+package northpole.observer;
 
 import java.util.ArrayList;
 

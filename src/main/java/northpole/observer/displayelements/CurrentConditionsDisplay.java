@@ -1,8 +1,8 @@
-package main.java.northpole.observer.displayelements;
+package northpole.observer.displayelements;
 
-import main.java.northpole.observer.DisplayElement;
-import main.java.northpole.observer.Observer;
-import main.java.northpole.observer.Subject;
+import northpole.observer.DisplayElement;
+import northpole.observer.Observer;
+import northpole.observer.Subject;
 
 public class CurrentConditionsDisplay implements Observer, DisplayElement
 {
